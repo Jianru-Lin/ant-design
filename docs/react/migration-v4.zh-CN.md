@@ -53,6 +53,7 @@ title: 从 v3 到 v4
 - 移除了 Transfer 的 `body` 属性，请使用 `children` 替代。
 - 移除了 Transfer 的 `lazy` 属性，它并没有起到真正的优化效果。
 - 移除了 Select 的 `combobox` 模式，请使用 `AutoComplete` 替代。
+- 移除了 Row 的 `type` 属性，总是采用 flex 布局模式。
 
 #### 图标升级
 
